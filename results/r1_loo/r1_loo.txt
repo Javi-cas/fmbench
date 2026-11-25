@@ -1,0 +1,50 @@
+== Jurkat R1 - U: margin +0.00317; contribution median -4.19e-07, IQR [-2.52e-06, +2.08e-06], positive share 0.441, Gini |c| 0.500, sum of contributions +0.00000
+   without top1     ( 18 kd): margin +0.00281 [+0.00243, +0.00319]  = 0.89 of original
+   without top5     ( 91 kd): margin +0.00187 [+0.00154, +0.00220]  = 0.59 of original
+   without top10    (181 kd): margin +0.00112 [+0.00081, +0.00142]  = 0.35 of original
+   without random5  ( 91 kd): margin +0.00319 [+0.00275, +0.00362]  = 1.01 of original
+   knockdowns to remove half the margin: 123 by trimming, 1 by cumulative contribution
+   corr(contribution, 1 - rho(K562, truth)) = -0.171 over 1805 kd; mean contribution by distance tertile (near, mid, far): +1.44e-06, -5.89e-07, -8.08e-07
+   full-recompute check (kd, full, fixed-rank): POLRMT +3.67e-05/+3.51e-05; LAS1L +2.20e-05/+2.18e-05; RPS24 +2.28e-05/+2.17e-05; RRS1 +2.18e-05/+2.01e-05; EIF4E +1.95e-05/+1.96e-05; NCL +2.70e-06/+2.45e-06; ARL6IP6 -1.01e-06/-9.75e-07; SDHC +4.32e-08/-9.07e-08; WBP1L +2.57e-06/+3.24e-06; MRPS11 -2.62e-06/-2.98e-06
+   top 10: POLRMT +3.5e-05, LAS1L +2.2e-05, RPS24 +2.2e-05, RRS1 +2.0e-05, EIF4E +2.0e-05, NUMA1 +1.9e-05, GEMIN5 +1.9e-05, PNPT1 +1.9e-05, GNL2 +1.8e-05, CHMP6 +1.8e-05
+== Jurkat R2 - U: margin +0.00232; contribution median -8.37e-08, IQR [-3.47e-06, +3.36e-06], positive share 0.495, Gini |c| 0.494, sum of contributions +0.00000
+   without top1     ( 18 kd): margin +0.00183 [+0.00125, +0.00242]  = 0.79 of original
+   without top5     ( 91 kd): margin +0.00067 [+0.00012, +0.00120]  = 0.29 of original
+   without top10    (181 kd): margin -0.00040 [-0.00094, +0.00010]  = -0.17 of original
+   without random5  ( 91 kd): margin +0.00235 [+0.00171, +0.00300]  = 1.01 of original
+   knockdowns to remove half the margin: 57 by trimming, 1 by cumulative contribution
+   corr(contribution, 1 - rho(K562, truth)) = -0.159 over 1805 kd; mean contribution by distance tertile (near, mid, far): +1.33e-06, -4.47e-07, -8.91e-07
+   top 10: POLRMT +4.4e-05, PNPT1 +3.3e-05, RPS24 +3.1e-05, NUMA1 +3.1e-05, CHMP6 +2.9e-05, MED14 +2.9e-05, LRPPRC +2.9e-05, RRP9 +2.9e-05, GTF2H2C +2.8e-05, TFAM +2.6e-05
+== Jurkat R3 - U: margin -0.00029; contribution median -1.62e-07, IQR [-9.62e-06, +1.06e-05], positive share 0.498, Gini |c| 0.499, sum of contributions +0.00000
+   without top1     ( 18 kd): margin -0.00172 [-0.00352, +0.00010]  = 5.87 of original
+   without top5     ( 91 kd): margin -0.00510 [-0.00682, -0.00341]  = 17.42 of original
+   without top10    (181 kd): margin -0.00814 [-0.00980, -0.00648]  = 27.81 of original
+   without random5  ( 91 kd): margin -0.00015 [-0.00213, +0.00187]  = 0.53 of original
+   knockdowns to remove half the margin: 1 by trimming, 1 by cumulative contribution
+   corr(contribution, 1 - rho(K562, truth)) = -0.059 over 1805 kd; mean contribution by distance tertile (near, mid, far): +9.07e-07, -3.08e-07, -5.72e-07
+   top 10: POLRMT +1.5e-04, NUMA1 +9.9e-05, RPS24 +9.2e-05, GNL2 +8.8e-05, DDX21 +8.3e-05, GTF2H2C +7.3e-05, PNPT1 +7.3e-05, LRPPRC +7.2e-05, LAS1L +7.2e-05, EIF4E +7.2e-05
+== HepG2 R1 - U: margin +0.00239; contribution median -1.20e-06, IQR [-7.74e-06, +6.95e-06], positive share 0.466, Gini |c| 0.487, sum of contributions +0.00000
+   without top1     ( 11 kd): margin +0.00176 [+0.00087, +0.00269]  = 0.74 of original
+   without top5     ( 53 kd): margin +0.00017 [-0.00061, +0.00097]  = 0.07 of original
+   without top10    (106 kd): margin -0.00119 [-0.00193, -0.00047]  = -0.50 of original
+   without random5  ( 53 kd): margin +0.00225 [+0.00128, +0.00321]  = 0.94 of original
+   knockdowns to remove half the margin: 24 by trimming, 1 by cumulative contribution
+   corr(contribution, 1 - rho(K562, truth)) = +0.153 over 1055 kd; mean contribution by distance tertile (near, mid, far): -1.74e-06, +1.27e-06, +4.21e-07
+   full-recompute check (kd, full, fixed-rank): RBM28 +8.13e-05/+6.52e-05; ISG20L2 +8.56e-05/+6.42e-05; PDCD11 +7.51e-05/+6.27e-05; PES1 +7.83e-05/+5.75e-05; RPL7L1 +6.91e-05/+5.60e-05; NOP58 +3.70e-05/+2.65e-05; ATP11B +3.47e-06/+2.95e-06; RRS1 +6.13e-05/+4.51e-05; VPS41 -1.72e-06/-1.50e-07; NAA25 +2.30e-06/+7.38e-06
+   top 10: RBM28 +6.5e-05, ISG20L2 +6.4e-05, PDCD11 +6.3e-05, PES1 +5.7e-05, RPL7L1 +5.6e-05, GNL3 +5.6e-05, PRPF31 +5.5e-05, WDR12 +5.4e-05, PSMB3 +5.0e-05, EIF4A3 +4.9e-05
+== HepG2 R2 - U: margin -0.00019; contribution median +1.14e-07, IQR [-6.16e-06, +6.40e-06], positive share 0.503, Gini |c| 0.511, sum of contributions -0.00000
+   without top1     ( 11 kd): margin -0.00074 [-0.00156, +0.00009]  = 3.82 of original
+   without top5     ( 53 kd): margin -0.00203 [-0.00280, -0.00128]  = 10.47 of original
+   without top10    (106 kd): margin -0.00314 [-0.00387, -0.00241]  = 16.20 of original
+   without random5  ( 53 kd): margin -0.00011 [-0.00102, +0.00080]  = 0.59 of original
+   knockdowns to remove half the margin: 1 by trimming, None by cumulative contribution
+   corr(contribution, 1 - rho(K562, truth)) = -0.086 over 1055 kd; mean contribution by distance tertile (near, mid, far): +3.30e-06, -3.38e-06, +1.76e-08
+   top 10: INTS8 +7.8e-05, RPL24 +6.0e-05, RPS24 +5.6e-05, EIF3B +4.7e-05, RABGGTB +4.7e-05, TPX2 +4.5e-05, RPL17 +4.4e-05, TSR2 +4.2e-05, CHMP6 +4.1e-05, EIF4E +4.1e-05
+== HepG2 R3 - U: margin -0.01253; contribution median +2.26e-06, IQR [-1.32e-05, +2.01e-05], positive share 0.534, Gini |c| 0.495, sum of contributions -0.00000
+   without top1     ( 11 kd): margin -0.01378 [-0.01584, -0.01166]  = 1.10 of original
+   without top5     ( 53 kd): margin -0.01661 [-0.01865, -0.01460]  = 1.33 of original
+   without top10    (106 kd): margin -0.01912 [-0.02116, -0.01712]  = 1.53 of original
+   without random5  ( 53 kd): margin -0.01229 [-0.01454, -0.00994]  = 0.98 of original
+   knockdowns to remove half the margin: 1 by trimming, None by cumulative contribution
+   corr(contribution, 1 - rho(K562, truth)) = -0.073 over 1055 kd; mean contribution by distance tertile (near, mid, far): +4.42e-06, -6.72e-06, +2.09e-06
+   top 10: RPS24 +1.5e-04, POLRMT +1.3e-04, EIF3B +1.2e-04, INTS8 +1.2e-04, TSR2 +1.1e-04, RABGGTB +1.1e-04, CHMP6 +1.0e-04, EIF4E +1.0e-04, RPS3 +9.6e-05, RPL24 +9.5e-05

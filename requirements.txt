@@ -1,0 +1,7 @@
+# analysis and figures (the three model environments are built by setup.sh)
+numpy
+scipy
+torch
+anndata
+pyarrow
+matplotlib

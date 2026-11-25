@@ -1,0 +1,340 @@
+{
+ "R1": {
+  "dim": 512,
+  "total": 0.12324992098516702,
+  "between_share": 0.47755764457832534,
+  "within_share": 0.5224423554216747,
+  "pr_within": 12.085074621072897,
+  "per_line": {
+   "K562": {
+    "within_share": 0.4696776675518566,
+    "reproducible_within_share": 0.35279006992071527,
+    "seed_noise_share": 0.11688759763114129,
+    "reproducible_fraction_of_within": 0.7511323068852621,
+    "snr": 3.018199339112131
+   },
+   "HCT116": {
+    "within_share": 0.6012400971243429,
+    "reproducible_within_share": 0.4349073718306441,
+    "seed_noise_share": 0.16633272529369877,
+    "reproducible_fraction_of_within": 0.7233505780980881,
+    "snr": 2.614683136242221
+   },
+   "HEK293T": {
+    "within_share": 0.6368771573780718,
+    "reproducible_within_share": 0.44546819746242844,
+    "seed_noise_share": 0.19140895991564347,
+    "reproducible_fraction_of_within": 0.6994570182048206,
+    "snr": 2.327311102148783
+   },
+   "H1_2025": {
+    "within_share": 0.2815338704833404,
+    "reproducible_within_share": 0.0739751907224188,
+    "seed_noise_share": 0.20755867976092157,
+    "reproducible_fraction_of_within": 0.26275769446645053,
+    "snr": 0.35640615370856965
+   },
+   "H1_GSE295214": {
+    "within_share": 0.390210523252068,
+    "reproducible_within_share": 0.23970854504830796,
+    "seed_noise_share": 0.15050197820376005,
+    "reproducible_fraction_of_within": 0.6143056908115754,
+    "snr": 1.5927268724918275
+   },
+   "Jurkat": {
+    "within_share": 0.5492862559595256,
+    "reproducible_within_share": 0.4127622197864984,
+    "seed_noise_share": 0.13652403617302725,
+    "reproducible_fraction_of_within": 0.7514519347757227,
+    "snr": 3.023366663899195
+   },
+   "HepG2": {
+    "within_share": 0.7282709162025174,
+    "reproducible_within_share": 0.5063795871442159,
+    "seed_noise_share": 0.22189132905830147,
+    "reproducible_fraction_of_within": 0.6953176021152574,
+    "snr": 2.282106242246022
+   }
+  },
+  "pr_reproducible_cross": 7.435147884115464,
+  "seed_noise_share": 0.17015790086235624,
+  "reproducible_within_share": 0.35228445455931845,
+  "snr": 2.070338507785704,
+  "reproducible_within_share_cross": 0.3520080611020529
+ },
+ "R2": {
+  "dim": 768,
+  "total": 0.3515759659858011,
+  "between_share": 0.6039116077659732,
+  "within_share": 0.3960883922340269,
+  "pr_within": 7.568072639679904,
+  "per_line": {
+   "K562": {
+    "within_share": 0.393492146610334,
+    "reproducible_within_share": 0.393492146610334,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "HCT116": {
+    "within_share": 0.43676699800396723,
+    "reproducible_within_share": 0.43676699800396723,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "HEK293T": {
+    "within_share": 0.5155804619748863,
+    "reproducible_within_share": 0.5155804619748863,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "H1_2025": {
+    "within_share": 0.31653629777943365,
+    "reproducible_within_share": 0.31653629777943365,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "H1_GSE295214": {
+    "within_share": 0.26543441826506303,
+    "reproducible_within_share": 0.26543441826506303,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "Jurkat": {
+    "within_share": 0.41594382806678465,
+    "reproducible_within_share": 0.41594382806678465,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "HepG2": {
+    "within_share": 0.4288645949377198,
+    "reproducible_within_share": 0.4288645949377198,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   }
+  },
+  "seed_noise_share": 0.0,
+  "reproducible_within_share": 0.3960883922340269,
+  "snr": null,
+  "reproducible_within_share_cross": null
+ },
+ "R3": {
+  "dim": 2058,
+  "total": 0.5642137536575177,
+  "between_share": 0.35394898848140166,
+  "within_share": 0.6460510115185983,
+  "pr_within": 273.72110638384396,
+  "per_line": {
+   "K562": {
+    "within_share": 0.7772812734292238,
+    "reproducible_within_share": 0.7469864751605816,
+    "seed_noise_share": 0.030294798268642214,
+    "reproducible_fraction_of_within": 0.9610246646815674,
+    "snr": 24.65725199872938
+   },
+   "HCT116": {
+    "within_share": 0.7281759473370182,
+    "reproducible_within_share": 0.7006337202518226,
+    "seed_noise_share": 0.027542227085195544,
+    "reproducible_fraction_of_within": 0.9621764119153906,
+    "snr": 25.438528194708923
+   },
+   "HEK293T": {
+    "within_share": 0.6635479426842571,
+    "reproducible_within_share": 0.636220065103594,
+    "seed_noise_share": 0.02732787758066312,
+    "reproducible_fraction_of_within": 0.9588155190865133,
+    "snr": 23.280990747476697
+   },
+   "H1_2025": {
+    "within_share": 0.21925799749035627,
+    "reproducible_within_share": 0.2083765517941087,
+    "seed_noise_share": 0.01088144569624759,
+    "reproducible_fraction_of_within": 0.9503714992347032,
+    "snr": 19.149712052137176
+   },
+   "H1_GSE295214": {
+    "within_share": 0.6749660097714365,
+    "reproducible_within_share": 0.6386158403459679,
+    "seed_noise_share": 0.03635016942546861,
+    "reproducible_fraction_of_within": 0.9461451852401014,
+    "snr": 17.568441920342853
+   },
+   "Jurkat": {
+    "within_share": 0.7679972817890938,
+    "reproducible_within_share": 0.7357720779937973,
+    "seed_noise_share": 0.03222520379529638,
+    "reproducible_fraction_of_within": 0.9580399507141146,
+    "snr": 22.832193169906073
+   },
+   "HepG2": {
+    "within_share": 0.691130628128803,
+    "reproducible_within_share": 0.664063032046717,
+    "seed_noise_share": 0.02706759608208604,
+    "reproducible_fraction_of_within": 0.9608357740484312,
+    "snr": 24.53350604290306
+   }
+  },
+  "pr_reproducible_cross": 255.80784056711647,
+  "seed_noise_share": 0.0273841882762285,
+  "reproducible_within_share": 0.6186668232423698,
+  "snr": 22.59211837874407,
+  "reproducible_within_share_cross": 0.6186486064820906
+ },
+ "R0_6360": {
+  "dim": 6360,
+  "total": 33656.184804063254,
+  "between_share": 0.19030572254871317,
+  "within_share": 0.8096942774512867,
+  "pr_within": 401.48197651031035,
+  "per_line": {
+   "K562": {
+    "within_share": 0.9582993804786865,
+    "reproducible_within_share": 0.9582993804786865,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "HCT116": {
+    "within_share": 0.9017711568230623,
+    "reproducible_within_share": 0.9017711568230623,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "HEK293T": {
+    "within_share": 0.8364335787967473,
+    "reproducible_within_share": 0.8364335787967473,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "H1_2025": {
+    "within_share": 0.2557699467601543,
+    "reproducible_within_share": 0.2557699467601543,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "H1_GSE295214": {
+    "within_share": 0.8798712721455029,
+    "reproducible_within_share": 0.8798712721455029,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "Jurkat": {
+    "within_share": 0.9696417707728889,
+    "reproducible_within_share": 0.9696417707728889,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "HepG2": {
+    "within_share": 0.8660728363819652,
+    "reproducible_within_share": 0.8660728363819652,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   }
+  },
+  "seed_noise_share": 0.0,
+  "reproducible_within_share": 0.8096942774512867,
+  "snr": null,
+  "reproducible_within_share_cross": null,
+  "count_noise_sensitivity": {
+   "count_noise_share_est": 0.42338982681157683,
+   "within_minus_count_noise_share": 0.3863044506397099,
+   "per_line_count_noise_fraction_of_within": {
+    "K562": 0.4709119343818827,
+    "HCT116": 0.5113055108991716,
+    "HEK293T": 0.5649420246096774,
+    "H1_2025": 0.8811635083109693,
+    "H1_GSE295214": 0.5126064499814792,
+    "Jurkat": 0.48441142899366046,
+    "HepG2": 0.4996447462146098
+   }
+  }
+ },
+ "R0_2000": {
+  "dim": 2000,
+  "total": 11097.268276931414,
+  "between_share": 0.2686354501769761,
+  "within_share": 0.7313645498230239,
+  "pr_within": 375.9339003684987,
+  "per_line": {
+   "K562": {
+    "within_share": 0.8444899005283321,
+    "reproducible_within_share": 0.8444899005283321,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "HCT116": {
+    "within_share": 0.8180656705104618,
+    "reproducible_within_share": 0.8180656705104618,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "HEK293T": {
+    "within_share": 0.7752236588119822,
+    "reproducible_within_share": 0.7752236588119822,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "H1_2025": {
+    "within_share": 0.2528530140711016,
+    "reproducible_within_share": 0.2528530140711016,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "H1_GSE295214": {
+    "within_share": 0.7668229378506096,
+    "reproducible_within_share": 0.7668229378506096,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "Jurkat": {
+    "within_share": 0.8739375521031024,
+    "reproducible_within_share": 0.8739375521031024,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   },
+   "HepG2": {
+    "within_share": 0.788159114885577,
+    "reproducible_within_share": 0.788159114885577,
+    "seed_noise_share": 0.0,
+    "reproducible_fraction_of_within": 1.0,
+    "snr": null
+   }
+  },
+  "seed_noise_share": 0.0,
+  "reproducible_within_share": 0.7313645498230239,
+  "snr": null,
+  "reproducible_within_share_cross": null,
+  "count_noise_sensitivity": {
+   "count_noise_share_est": 0.37477515877120804,
+   "within_minus_count_noise_share": 0.3565893910518158,
+   "per_line_count_noise_fraction_of_within": {
+    "K562": 0.4641671067189973,
+    "HCT116": 0.5017451942903409,
+    "HEK293T": 0.5552163356369831,
+    "H1_2025": 0.7546308610546038,
+    "H1_GSE295214": 0.5129219693599416,
+    "Jurkat": 0.47512246828216176,
+    "HepG2": 0.4963540054919664
+   }
+  }
+ }
+}

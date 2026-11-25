@@ -1,0 +1,36 @@
+== Jurkat R1 - U: margin +0.00317 = sum of d_k; d_k median +1.11e-06, IQR [-5.13e-07, +3.24e-06], mean +1.75e-06, positive share 0.676, Gini |d| 0.546
+   without top1   ( 18 kd): margin +0.00282 [+0.00244, +0.00319] = 0.89 of original (additive 0.88; symmetric-noise reference 0.88)
+   without top5   ( 91 kd): margin +0.00190 [+0.00156, +0.00223] = 0.60 of original (additive 0.56; symmetric-noise reference 0.61)
+   without top10  (181 kd): margin +0.00118 [+0.00086, +0.00148] = 0.37 of original (additive 0.32; symmetric-noise reference 0.40)
+   knockdowns to halve the margin: 127 by trimming, 111 by cumulative d_k (largest first)
+   top 10: POLRMT +3.6e-05, RPS24 +2.4e-05, PNPT1 +2.4e-05, CHMP6 +2.3e-05, EIF4E +2.3e-05, RRS1 +2.3e-05, GEMIN5 +2.3e-05, LAS1L +2.2e-05, GTF2E2 +2.2e-05, TFAM +2.0e-05
+== Jurkat R2 - U: margin +0.00232 = sum of d_k; d_k median +9.73e-07, IQR [-1.83e-06, +4.07e-06], mean +1.28e-06, positive share 0.600, Gini |d| 0.530
+   without top1   ( 18 kd): margin +0.00184 [+0.00126, +0.00242] = 0.79 of original (additive 0.78; symmetric-noise reference 0.76)
+   without top5   ( 91 kd): margin +0.00071 [+0.00016, +0.00125] = 0.31 of original (additive 0.27; symmetric-noise reference 0.27)
+   without top10  (181 kd): margin -0.00031 [-0.00086, +0.00022] = -0.13 of original (additive -0.14; symmetric-noise reference -0.11)
+   knockdowns to halve the margin: 59 by trimming, 54 by cumulative d_k (largest first)
+   top 10: POLRMT +4.5e-05, PNPT1 +4.0e-05, LRPPRC +3.5e-05, CHMP6 +3.4e-05, RPS24 +3.2e-05, TFAM +3.2e-05, NUMA1 +3.1e-05, MED14 +3.1e-05, EIF4E +2.6e-05, GTF2H2C +2.6e-05
+== Jurkat R3 - U: margin -0.00029 = sum of d_k; d_k median +2.43e-07, IQR [-8.22e-06, +8.58e-06], mean -1.62e-07, positive share 0.507, Gini |d| 0.540
+   without top1   ( 18 kd): margin -0.00169 [-0.00347, +0.00014] = 5.79 of original (additive 5.81; symmetric-noise reference 6.80)
+   without top5   ( 91 kd): margin -0.00498 [-0.00669, -0.00323] = 17.01 of original (additive 16.36; symmetric-noise reference 17.60)
+   without top10  (181 kd): margin -0.00785 [-0.00952, -0.00620] = 26.84 of original (additive 24.38; symmetric-noise reference 25.27)
+   knockdowns to halve the margin: 1 by trimming, None by cumulative d_k (largest first)
+   top 10: POLRMT +1.6e-04, NUMA1 +9.5e-05, RPS24 +9.2e-05, PNPT1 +8.9e-05, TFAM +8.3e-05, LRPPRC +8.0e-05, CHMP6 +7.8e-05, GNL2 +7.4e-05, EIF4E +7.3e-05, LAS1L +7.1e-05
+== HepG2 R1 - U: margin +0.00239 = sum of d_k; d_k median +1.69e-06, IQR [-5.25e-06, +7.85e-06], mean +2.26e-06, positive share 0.562, Gini |d| 0.519
+   without top1   ( 11 kd): margin +0.00177 [+0.00089, +0.00269] = 0.74 of original (additive 0.73; symmetric-noise reference 0.75)
+   without top5   ( 53 kd): margin +0.00020 [-0.00058, +0.00100] = 0.08 of original (additive 0.04; symmetric-noise reference 0.13)
+   without top10  (106 kd): margin -0.00115 [-0.00189, -0.00037] = -0.48 of original (additive -0.47; symmetric-noise reference -0.35)
+   knockdowns to halve the margin: 24 by trimming, 23 by cumulative d_k (largest first)
+   top 10: ISG20L2 +6.8e-05, RBM28 +6.6e-05, PRPF31 +6.2e-05, PES1 +6.1e-05, PDCD11 +5.9e-05, RPL9 +5.5e-05, WDR12 +5.5e-05, RPL7L1 +5.4e-05, GNL3 +5.4e-05, NVL +5.3e-05
+== HepG2 R2 - U: margin -0.00019 = sum of d_k; d_k median +5.37e-09, IQR [-5.28e-06, +5.19e-06], mean -1.83e-07, positive share 0.501, Gini |d| 0.541
+   without top1   ( 11 kd): margin -0.00073 [-0.00153, +0.00012] = 3.76 of original (additive 3.75; symmetric-noise reference 3.90)
+   without top5   ( 53 kd): margin -0.00197 [-0.00273, -0.00122] = 10.18 of original (additive 9.65; symmetric-noise reference 9.99)
+   without top10  (106 kd): margin -0.00303 [-0.00378, -0.00229] = 15.61 of original (additive 13.68; symmetric-noise reference 13.99)
+   knockdowns to halve the margin: 1 by trimming, None by cumulative d_k (largest first)
+   top 10: INTS8 +7.3e-05, RPS24 +5.3e-05, RPL24 +5.2e-05, CHMP6 +4.8e-05, RPL17 +4.8e-05, EIF3B +4.5e-05, RABGGTB +4.5e-05, TSR2 +4.5e-05, RPS13 +4.3e-05, RPS3 +4.1e-05
+== HepG2 R3 - U: margin -0.01253 = sum of d_k; d_k median -7.79e-06, IQR [-2.24e-05, +3.27e-06], mean -1.18e-05, positive share 0.324, Gini |d| 0.553
+   without top1   ( 11 kd): margin -0.01378 [-0.01585, -0.01157] = 1.10 of original (additive 1.09; symmetric-noise reference 1.10)
+   without top5   ( 53 kd): margin -0.01648 [-0.01850, -0.01441] = 1.31 of original (additive 1.25; symmetric-noise reference 1.32)
+   without top10  (106 kd): margin -0.01877 [-0.02084, -0.01675] = 1.50 of original (additive 1.35; symmetric-noise reference 1.44)
+   knockdowns to halve the margin: 1 by trimming, None by cumulative d_k (largest first)
+   top 10: RPS24 +1.3e-04, POLRMT +1.1e-04, CHMP6 +1.1e-04, EIF3B +1.0e-04, INTS8 +1.0e-04, RPS3 +1.0e-04, TSR2 +1.0e-04, RABGGTB +9.3e-05, RPS2 +9.0e-05, EIF4E +8.6e-05
